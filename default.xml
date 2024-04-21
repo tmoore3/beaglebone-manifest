@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="yocto" fetch="git://git.yoctoproject.org"/>
+  <remote name="tmoore3" fetch="https://github.com/tmoore3"/>
+  <default remote="yocto"/>
+
+ <project name="poky" path="sources/poky" revision="kirkstone"/>
+</manifest>
